@@ -41,13 +41,13 @@
               "field": "AvgSalary",
               "type": "quantitative",
               "title": "Average Base Salary ($AUD)",
-              "scale": {"domain": [40000, 120000]}
+              "scale": {"domain": [80000, 120000]}
             },
             "color": {
             "field": "AvgRating",
             "type": "quantitative",
             "title": "Companies Average Rating (1-5)",
-            "scale": {"scheme": "reds"}
+            "scale": {"scheme": "reds", "domain": [3, 4]}
             },
             "tooltip": [
               {"field": "City", "type": "ordinal", "title": "City"},
